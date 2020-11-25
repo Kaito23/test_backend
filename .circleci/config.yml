@@ -8,7 +8,16 @@ jobs:
         steps:
             - checkout
             - run: node --version
-            - run: npm install
+            - run: npm install    
+    two:
+        executor:
+            name: node/default
+        steps:
+            steps:
+                - checkout
+                - attach_workspace:
+                    at: ~/my-app-backend
+      
 workflows:
     do_one:
         jobs:  
