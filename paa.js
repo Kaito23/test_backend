@@ -1,5 +1,8 @@
 
-const express = require('node_modules/express');
+const express = require('express');
+const app = express()
+const port = 3000
+
 module.exports = function(){
 	app.get('/', (req, res) => {
       res.send('Hello World!')

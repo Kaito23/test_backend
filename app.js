@@ -1,1 +1,1 @@
-require('paa.js')();
+require('./paa.js')();
