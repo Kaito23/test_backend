@@ -1,9 +1,10 @@
 version: 2.1
+orbs:
+  node: circleci/node@3.0.0
 jobs:
     one:
         executor:
             name: node/default
-            tag: '10.4'
         steps:
             - checkout
             - run: node --version
