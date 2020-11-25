@@ -4,7 +4,6 @@ orbs:
 jobs:
     one:
         executor:
-        executor:
             name: node/default
             tag: '10.4'
         steps:
