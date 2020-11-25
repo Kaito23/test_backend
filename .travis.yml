@@ -6,6 +6,6 @@ before_script:
 script:
   - echo 'build starts -----'
   - cd ..
-  - git checkout https://github.com/Kaito23/test_frontend.git
+  - git clone https://github.com/Kaito23/test_frontend.git
   - cd test_frontend
   - npm install
